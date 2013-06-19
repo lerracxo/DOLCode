@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ComeSoloActivity" >
+
+    <TextView
+        android:id="@+id/debug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:background="@drawable/tablero"
+        android:minHeight="270dp"
+        android:minWidth="270dp"
+        android:orientation="vertical"
+        android:paddingTop="17dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <ImageView
+                android:id="@+id/ImageView24"
+                android:contentDescription="@string/canica"
+                style="@style/Posicion" />
+            
+            <ImageView
+                android:id="@+id/ImageView23"
+                android:contentDescription="@string/canica"
+                style="@style/Posicion" />
+
+            <ImageView
+                android:id="@+id/ImageView22"
+                android:contentDescription="@string/canica"
+                style="@style/Posicion" />
+
+            <ImageView
+                android:id="@+id/ImageView21"
+                android:contentDescription="@string/canica"
+                style="@style/Posicion" />
+            
+            <ImageView
+                android:id="@+id/ImageView20"
+            	android:contentDescription="@string/canica"
+                style="@style/Posicion" />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <ImageView
+                android:id="@+id/ImageView18"
+                android:contentDescription="@string/canica"
+                style="@style/Posicion" />
+
+            <ImageView
+                android:id="@+id/ImageView17"
+                android:contentDescription="@string/canica"
+                style="@style/Posicion" />
+
+            <ImageView
+                android:id="@+id/ImageView16"
+                android:contentDescription="@string/canica"
+                style="@style/Posicion" />
+
+            <ImageView
+                android:id="@+id/ImageView15"
+                android:contentDescription="@string/canica"
+                style="@style/Posicion" />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <ImageView
+                android:id="@+id/ImageView12"
+            	android:contentDescription="@string/canica"
+                style="@style/Posicion" />
+
+            <ImageView
+                android:id="@+id/ImageView11"
+                android:contentDescription="@string/canica"
+                style="@style/Posicion" />
+
+            <ImageView
+                android:id="@+id/ImageView10"
+                android:contentDescription="@string/canica"
+                style="@style/Posicion" />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <ImageView
+                android:id="@+id/ImageView06"
+            	android:contentDescription="@string/canica"
+                style="@style/Posicion" />
+
+            <ImageView
+                android:id="@+id/ImageView05"
+                android:contentDescription="@string/canica"
+                style="@style/Posicion" />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+            	android:contentDescription="@string/canica"
+                style="@style/Posicion" />
+            
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
